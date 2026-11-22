@@ -1,21 +1,103 @@
-MIT License
+MTR RENFE ADDON
+Copyright / Author: (c) 2024-2026 joseka911
+Author Profile: https://modrinth.com/user/joseka911
+Official Download Source: https://modrinth.com/mod/mtr-renfe-addon
 
-Copyright (c) 2024 joseka911
+================================================================================
+LICENSE: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+================================================================================
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+All original works contained in "MTR RENFE ADDON" — including, without
+limitation, 3D models, custom textures, sounds, JSON configurations, code, and
+localization files created by joseka911 (2024-2026) — are licensed under the
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License
+(CC BY-NC-SA 4.0).
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+To view a copy of this license, visit:
+https://creativecommons.org/licenses/by-nc-sa/4.0/
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+To view the full legal code, visit:
+https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+
+--------------------------------------------------------------------------------
+1. PRIVATE & PERSONAL USE (COMPLETE FREEDOM):
+--------------------------------------------------------------------------------
+You have complete, unrestricted freedom to modify, adapt, repaint, decompile, or
+combine any part of this add-on for strictly private or personal use (such as
+single-player worlds or private servers shared exclusively among invited friends),
+provided that the modified files are NOT publicly distributed, uploaded, or
+hosted anywhere on the internet. For purely private use with no public
+distribution, no public credit or documentation of changes is required.
+
+--------------------------------------------------------------------------------
+2. PUBLIC SHARING & ADAPTATION (YOU ARE FREE TO):
+--------------------------------------------------------------------------------
+- SHARE: Copy and redistribute the material in any medium or format for
+  non-commercial purposes (including free community modpacks hosted on Modrinth
+  or CurseForge and non-commercial public servers).
+- ADAPT: Remix, transform, repaint, and build upon the material for public
+  non-commercial projects.
+
+--------------------------------------------------------------------------------
+3. MANDATORY TERMS FOR PUBLIC DISTRIBUTION:
+--------------------------------------------------------------------------------
+If you distribute or publish this add-on or any derivative work publicly, you
+MUST comply with all of the following conditions:
+
+- ATTRIBUTION (BY):
+  * You must give appropriate credit to the original author: joseka911
+    (https://modrinth.com/user/joseka911).
+  * You must provide a direct link to the official Modrinth project page:
+    https://modrinth.com/mod/mtr-renfe-addon
+  * You must clearly indicate if any changes, renames, or modifications were
+    made to the original files.
+  * You may do so in any reasonable manner, but NOT in any way that suggests the
+    licensor (joseka911) endorses you, your website, or your modified version,
+    nor may you use the author's username to falsely attribute unauthorized
+    re-uploads.
+
+- NON-COMMERCIAL (NC):
+  * You may NOT use, distribute, or host this material for commercial purposes
+    or financial gain.
+  * Unauthorized re-uploading (rehosting) of this file — whether intact or
+    renamed/repackaged — on ad-monetized websites, pay-per-download links, or
+    third-party aggregator portals (such as 9minecraft and similar sites) is
+    strictly prohibited and constitutes a violation of this license.
+
+- SHARE-ALIKE (SA):
+  * If you remix, transform, or build upon this material and distribute your
+    contributions publicly, you MUST distribute them under the exact same
+    CC BY-NC-SA 4.0 license. You may not apply legal terms or technological
+    measures that legally restrict others from doing anything the license
+    permits.
+
+--------------------------------------------------------------------------------
+4. THIRD-PARTY TRADEMARKS & OFFICIAL LOGOS EXCLUSION:
+--------------------------------------------------------------------------------
+"MTR RENFE ADDON" is an unofficial, non-commercial, fan-made modification for
+the Minecraft Transit Railway (MTR) mod. It is NOT affiliated with, endorsed by,
+sponsored by, or connected to Renfe-Operadora, Adif, or any other railway
+operator or public/private entity.
+
+- EXCLUDED FROM CC LICENSE: All real-world logos, corporate identities, brand
+  names, typography, and official train liveries depicted in this add-on are
+  protected by trademark and intellectual property laws and remain the sole and
+  exclusive property of their respective legal owners. They are NOT licensed
+  under CC BY-NC-SA 4.0, and the author (joseka911) grants no rights or licenses
+  over said third-party trademarks.
+- NON-COMMERCIAL SIMULATION ONLY: Said logos are included strictly for
+  non-commercial, artistic, and educational simulation purposes within Minecraft.
+  Any extraction, standalone redistribution, or commercial/misleading use of
+  these logos by third parties is strictly prohibited.
+
+--------------------------------------------------------------------------------
+5. DISCLAIMER OF WARRANTY & LIMITATION OF LIABILITY:
+--------------------------------------------------------------------------------
+THIS ADD-ON IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED. IN NO EVENT SHALL THE AUTHOR (joseka911) BE HELD LIABLE FOR ANY CLAIM,
+DAMAGES, TRADEMARK INFRINGEMENT, OR OTHER LEGAL LIABILITY ARISING FROM THE
+MISUSE, UNAUTHORIZED MODIFICATION, COMMERCIAL EXPLOITATION, OR IMPROPER
+DISTRIBUTION OF THIS ADD-ON OR ITS INCLUDED THIRD-PARTY LOGOS BY ANY USER OR
+THIRD PARTY. ANY INDIVIDUAL OR ENTITY WHO USES, MODIFIES, OR REDISTRIBUTES
+THIS WORK ASSUMES FULL AND SOLE LEGAL RESPONSIBILITY FOR COMPLYING WITH
+APPLICABLE INTELLECTUAL PROPERTY AND TRADEMARK LAWS.

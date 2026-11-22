@@ -26,6 +26,16 @@ public class Blocks{
         SIGNAL_20_ADVERTISEMENT_ORANGE = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_20_advertisement_orange"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
         SIGNAL_20_TEMP_ORANGE = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_20_temp_orange"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
         SIGNAL_20_ADVERTISEMENT_TEMP_ORANGE = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_20_advertisement_temp_orange"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_30 = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_30"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_30_ADVERTISEMENT = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_30_advertisement"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_30_ADVERTISEMENT_TEMP = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_30_advertisement_temp"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_30_PREADVERTISEMENT = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_30_pre_advertisement"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_30_PREADVERTISEMENT_TEMP = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_30_pre_advertisement_temp"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_30_ORANGE = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_30_orange"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_30_TEMP = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_30_temp"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_30_ADVERTISEMENT_ORANGE = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_30_advertisement_orange"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_30_TEMP_ORANGE = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_30_temp_orange"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_30_ADVERTISEMENT_TEMP_ORANGE = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_30_advertisement_temp_orange"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
         SIGNAL_40 = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_40"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
         SIGNAL_40_ADVERTISEMENT = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_40_advertisement"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
         SIGNAL_40_ADVERTISEMENT_TEMP = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_40_advertisement_temp"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
@@ -36,21 +46,82 @@ public class Blocks{
         SIGNAL_40_ADVERTISEMENT_ORANGE = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_40_advertisement_orange"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
         SIGNAL_40_TEMP_ORANGE = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_40_temp_orange"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
         SIGNAL_40_ADVERTISEMENT_TEMP_ORANGE = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_40_advertisement_temp_orange"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_50 = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_50"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_50_ADVERTISEMENT = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_50_advertisement"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_50_ADVERTISEMENT_TEMP = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_50_advertisement_temp"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_50_PREADVERTISEMENT = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_50_pre_advertisement"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_50_PREADVERTISEMENT_TEMP = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_50_pre_advertisement_temp"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_50_ORANGE = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_50_orange"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_50_TEMP = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_50_temp"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_50_ADVERTISEMENT_ORANGE = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_50_advertisement_orange"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_50_TEMP_ORANGE = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_50_temp_orange"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_50_ADVERTISEMENT_TEMP_ORANGE = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_50_advertisement_temp_orange"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
         SIGNAL_60 = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_60"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
         SIGNAL_60_ADVERTISEMENT = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_60_advertisement"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
         SIGNAL_60_PREADVERTISEMENT = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_60_pre_advertisement"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
         SIGNAL_60_ORANGE = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_60_orange"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
         SIGNAL_60_ADVERTISEMENT_ORANGE = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_60_advertisement_orange"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_70 = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_70"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_70_ADVERTISEMENT = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_70_advertisement"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_70_PREADVERTISEMENT = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_70_pre_advertisement"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_70_ORANGE = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_70_orange"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_70_ADVERTISEMENT_ORANGE = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_70_advertisement_orange"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
         SIGNAL_80 = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_80"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
         SIGNAL_80_ADVERTISEMENT = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_80_advertisement"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
         SIGNAL_80_PREADVERTISEMENT = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_80_pre_advertisement"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
         SIGNAL_80_ORANGE = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_80_orange"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
         SIGNAL_80_ADVERTISEMENT_ORANGE = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_80_advertisement_orange"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_90 = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_90"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_90_ADVERTISEMENT = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_90_advertisement"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_90_PREADVERTISEMENT = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_90_pre_advertisement"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_90_ORANGE = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_90_orange"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_90_ADVERTISEMENT_ORANGE = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_90_advertisement_orange"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_100 = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_100"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_100_ADVERTISEMENT = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_100_advertisement"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_100_PREADVERTISEMENT = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_100_pre_advertisement"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_100_ORANGE = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_100_orange"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_100_ADVERTISEMENT_ORANGE = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_100_advertisement_orange"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_110 = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_110"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_110_ADVERTISEMENT = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_110_advertisement"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_110_PREADVERTISEMENT = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_110_pre_advertisement"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_110_ORANGE = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_110_orange"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_110_ADVERTISEMENT_ORANGE = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_110_advertisement_orange"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
         SIGNAL_120 = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_120"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
         SIGNAL_120_ADVERTISEMENT = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_120_advertisement"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
         SIGNAL_120_PREADVERTISEMENT = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_120_pre_advertisement"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
         SIGNAL_120_ORANGE = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_120_orange"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
         SIGNAL_120_ADVERTISEMENT_ORANGE = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_120_advertisement_orange"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_130 = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_130"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_130_ADVERTISEMENT = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_130_advertisement"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_130_PREADVERTISEMENT = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_130_pre_advertisement"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_140 = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_140"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_140_ADVERTISEMENT = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_140_advertisement"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_140_PREADVERTISEMENT = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_140_pre_advertisement"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_150 = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_150"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_150_ADVERTISEMENT = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_150_advertisement"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_150_PREADVERTISEMENT = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_150_pre_advertisement"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_160 = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_160"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_160_ADVERTISEMENT = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_160_advertisement"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_160_PREADVERTISEMENT = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_160_pre_advertisement"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_200 = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_200"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_200_ADVERTISEMENT = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_200_advertisement"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_200_PREADVERTISEMENT = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_200_pre_advertisement"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_220 = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_220"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_220_ADVERTISEMENT = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_220_advertisement"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_220_PREADVERTISEMENT = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_220_pre_advertisement"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_270 = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_270"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_270_ADVERTISEMENT = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_270_advertisement"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_270_PREADVERTISEMENT = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_270_pre_advertisement"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_300 = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_300"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_300_ADVERTISEMENT = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_300_advertisement"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_300_PREADVERTISEMENT = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_300_pre_advertisement"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_320 = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_320"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_320_ADVERTISEMENT = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_320_advertisement"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_320_PREADVERTISEMENT = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_320_pre_advertisement"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_350 = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_350"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_350_ADVERTISEMENT = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_350_advertisement"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+        SIGNAL_350_PREADVERTISEMENT = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "signal_350_pre_advertisement"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
+
         SIGNAL_END_CATENARY = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "end_electric_line"), () -> new Block(new RenfeSignals()), CreativeModeTabs.SIGNALS);
 
         //Station platform number
@@ -82,7 +153,7 @@ public class Blocks{
         BARRIER_ENTRANCE_RODALIES = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "barrier_rodalies_entrance"), () -> new Block(new BlockTicketBarrier(true)), CreativeModeTabs.DECORATIONS);
         BARRIER_EXIT_CERCANIAS = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "barrier_cercanias_exit"), () -> new Block(new BlockTicketBarrier(false)), CreativeModeTabs.DECORATIONS);
         BARRIER_EXIT_RODALIES = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "barrier_rodalies_exit"), () -> new Block(new BlockTicketBarrier(false)), CreativeModeTabs.DECORATIONS);
-        BARRIER_END = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "barrier_end"), () -> new Block(new DefaultVoxelShape()), CreativeModeTabs.DECORATIONS);
+        BARRIER_END = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "barrier_end"), () -> new Block(new BarrierEnd()), CreativeModeTabs.DECORATIONS);
 
         //Station entrance
         STATION_NAME_ENTRANCE_CERCANIAS_NEW = Init.REGISTRY.registerBlockWithBlockItem(new Identifier(Init.MOD_ID, "station_name_entrance_cercanias_new"), () -> new Block(new BlockStationNameCercaniasNew(org.mtr.mod.Blocks.createDefaultBlockSettings(true, blockState -> 0).nonOpaque())), CreativeModeTabs.DECORATIONS);
@@ -102,9 +173,7 @@ public class Blocks{
         CERCANIAS_TOTEM_BLOCK_3 = Init.REGISTRY.registerBlock(new Identifier(Init.MOD_ID, "cercanias_totem_station_3"), () -> new Block(new DefaultVoxelShape()));
         CERCANIAS_TOTEM_BLOCK_4 = Init.REGISTRY.registerBlock(new Identifier(Init.MOD_ID, "cercanias_totem_station_4"), () -> new Block(new DefaultVoxelShape()));
         CERCANIAS_TOTEM_BLOCK_5 = Init.REGISTRY.registerBlock(new Identifier(Init.MOD_ID, "cercanias_totem_station_5"), () -> new Block(new DefaultVoxelShape()));
-
-
-
+        
 
     }
 
@@ -120,6 +189,16 @@ public class Blocks{
     public static final BlockRegistryObject SIGNAL_20_ADVERTISEMENT_ORANGE;
     public static final BlockRegistryObject SIGNAL_20_TEMP_ORANGE;
     public static final BlockRegistryObject SIGNAL_20_ADVERTISEMENT_TEMP_ORANGE;
+    public static final BlockRegistryObject SIGNAL_30;
+    public static final BlockRegistryObject SIGNAL_30_ADVERTISEMENT;
+    public static final BlockRegistryObject SIGNAL_30_ADVERTISEMENT_TEMP;
+    public static final BlockRegistryObject SIGNAL_30_PREADVERTISEMENT;
+    public static final BlockRegistryObject SIGNAL_30_PREADVERTISEMENT_TEMP;
+    public static final BlockRegistryObject SIGNAL_30_ORANGE;
+    public static final BlockRegistryObject SIGNAL_30_TEMP;
+    public static final BlockRegistryObject SIGNAL_30_ADVERTISEMENT_ORANGE;
+    public static final BlockRegistryObject SIGNAL_30_TEMP_ORANGE;
+    public static final BlockRegistryObject SIGNAL_30_ADVERTISEMENT_TEMP_ORANGE;
     public static final BlockRegistryObject SIGNAL_40;
     public static final BlockRegistryObject SIGNAL_40_ADVERTISEMENT;
     public static final BlockRegistryObject SIGNAL_40_ADVERTISEMENT_TEMP;
@@ -130,21 +209,81 @@ public class Blocks{
     public static final BlockRegistryObject SIGNAL_40_ADVERTISEMENT_ORANGE;
     public static final BlockRegistryObject SIGNAL_40_TEMP_ORANGE;
     public static final BlockRegistryObject SIGNAL_40_ADVERTISEMENT_TEMP_ORANGE;
+    public static final BlockRegistryObject SIGNAL_50;
+    public static final BlockRegistryObject SIGNAL_50_ADVERTISEMENT;
+    public static final BlockRegistryObject SIGNAL_50_ADVERTISEMENT_TEMP;
+    public static final BlockRegistryObject SIGNAL_50_PREADVERTISEMENT;
+    public static final BlockRegistryObject SIGNAL_50_PREADVERTISEMENT_TEMP;
+    public static final BlockRegistryObject SIGNAL_50_ORANGE;
+    public static final BlockRegistryObject SIGNAL_50_TEMP;
+    public static final BlockRegistryObject SIGNAL_50_ADVERTISEMENT_ORANGE;
+    public static final BlockRegistryObject SIGNAL_50_TEMP_ORANGE;
+    public static final BlockRegistryObject SIGNAL_50_ADVERTISEMENT_TEMP_ORANGE;
     public static final BlockRegistryObject SIGNAL_60;
     public static final BlockRegistryObject SIGNAL_60_ADVERTISEMENT;
     public static final BlockRegistryObject SIGNAL_60_PREADVERTISEMENT;
     public static final BlockRegistryObject SIGNAL_60_ORANGE;
     public static final BlockRegistryObject SIGNAL_60_ADVERTISEMENT_ORANGE;
+    public static final BlockRegistryObject SIGNAL_70;
+    public static final BlockRegistryObject SIGNAL_70_ADVERTISEMENT;
+    public static final BlockRegistryObject SIGNAL_70_PREADVERTISEMENT;
+    public static final BlockRegistryObject SIGNAL_70_ORANGE;
+    public static final BlockRegistryObject SIGNAL_70_ADVERTISEMENT_ORANGE;
     public static final BlockRegistryObject SIGNAL_80;
     public static final BlockRegistryObject SIGNAL_80_ADVERTISEMENT;
     public static final BlockRegistryObject SIGNAL_80_PREADVERTISEMENT;
     public static final BlockRegistryObject SIGNAL_80_ORANGE;
     public static final BlockRegistryObject SIGNAL_80_ADVERTISEMENT_ORANGE;
+    public static final BlockRegistryObject SIGNAL_90;
+    public static final BlockRegistryObject SIGNAL_90_ADVERTISEMENT;
+    public static final BlockRegistryObject SIGNAL_90_PREADVERTISEMENT;
+    public static final BlockRegistryObject SIGNAL_90_ORANGE;
+    public static final BlockRegistryObject SIGNAL_90_ADVERTISEMENT_ORANGE;
+    public static final BlockRegistryObject SIGNAL_100;
+    public static final BlockRegistryObject SIGNAL_100_ADVERTISEMENT;
+    public static final BlockRegistryObject SIGNAL_100_PREADVERTISEMENT;
+    public static final BlockRegistryObject SIGNAL_100_ORANGE;
+    public static final BlockRegistryObject SIGNAL_100_ADVERTISEMENT_ORANGE;
+    public static final BlockRegistryObject SIGNAL_110;
+    public static final BlockRegistryObject SIGNAL_110_ADVERTISEMENT;
+    public static final BlockRegistryObject SIGNAL_110_PREADVERTISEMENT;
+    public static final BlockRegistryObject SIGNAL_110_ORANGE;
+    public static final BlockRegistryObject SIGNAL_110_ADVERTISEMENT_ORANGE;
     public static final BlockRegistryObject SIGNAL_120;
     public static final BlockRegistryObject SIGNAL_120_ADVERTISEMENT;
     public static final BlockRegistryObject SIGNAL_120_PREADVERTISEMENT;
     public static final BlockRegistryObject SIGNAL_120_ORANGE;
     public static final BlockRegistryObject SIGNAL_120_ADVERTISEMENT_ORANGE;
+    public static final BlockRegistryObject SIGNAL_130;
+    public static final BlockRegistryObject SIGNAL_130_ADVERTISEMENT;
+    public static final BlockRegistryObject SIGNAL_130_PREADVERTISEMENT;
+    public static final BlockRegistryObject SIGNAL_140;
+    public static final BlockRegistryObject SIGNAL_140_ADVERTISEMENT;
+    public static final BlockRegistryObject SIGNAL_140_PREADVERTISEMENT;
+    public static final BlockRegistryObject SIGNAL_150;
+    public static final BlockRegistryObject SIGNAL_150_ADVERTISEMENT;
+    public static final BlockRegistryObject SIGNAL_150_PREADVERTISEMENT;
+    public static final BlockRegistryObject SIGNAL_160;
+    public static final BlockRegistryObject SIGNAL_160_ADVERTISEMENT;
+    public static final BlockRegistryObject SIGNAL_160_PREADVERTISEMENT;
+    public static final BlockRegistryObject SIGNAL_200;
+    public static final BlockRegistryObject SIGNAL_200_ADVERTISEMENT;
+    public static final BlockRegistryObject SIGNAL_200_PREADVERTISEMENT;
+    public static final BlockRegistryObject SIGNAL_220;
+    public static final BlockRegistryObject SIGNAL_220_ADVERTISEMENT;
+    public static final BlockRegistryObject SIGNAL_220_PREADVERTISEMENT;
+    public static final BlockRegistryObject SIGNAL_270;
+    public static final BlockRegistryObject SIGNAL_270_ADVERTISEMENT;
+    public static final BlockRegistryObject SIGNAL_270_PREADVERTISEMENT;
+    public static final BlockRegistryObject SIGNAL_300;
+    public static final BlockRegistryObject SIGNAL_300_ADVERTISEMENT;
+    public static final BlockRegistryObject SIGNAL_300_PREADVERTISEMENT;
+    public static final BlockRegistryObject SIGNAL_320;
+    public static final BlockRegistryObject SIGNAL_320_ADVERTISEMENT;
+    public static final BlockRegistryObject SIGNAL_320_PREADVERTISEMENT;
+    public static final BlockRegistryObject SIGNAL_350;
+    public static final BlockRegistryObject SIGNAL_350_ADVERTISEMENT;
+    public static final BlockRegistryObject SIGNAL_350_PREADVERTISEMENT;
     public static final BlockRegistryObject PLAT_ADIF_NUMBER;
     public static final BlockRegistryObject PLAT_CERCANIAS_NUMBER;
     public static final BlockRegistryObject PLAT_RODALIES_NUMBER;
@@ -181,6 +320,8 @@ public class Blocks{
     public static final BlockRegistryObject PLATFORM_BARRIER;
     public static final BlockRegistryObject PLATFORM_BARRIER_SLAB;
 
+    // FOR TESTING ;-;
+    //public static final BlockRegistryObject TEST;
 
 
 

@@ -5,7 +5,6 @@ import es.joseka.renfemtr.mod.blocks.BlockStationNameCercaniasNew;
 import es.joseka.renfemtr.mod.blocks.BlockStationNameCercaniasOld;
 import org.mtr.mapping.holder.Identifier;
 import org.mtr.mapping.registry.BlockEntityTypeRegistryObject;
-import org.mtr.mod.block.BlockStationNameEntrance;
 
 @SuppressWarnings("unchecked")
 

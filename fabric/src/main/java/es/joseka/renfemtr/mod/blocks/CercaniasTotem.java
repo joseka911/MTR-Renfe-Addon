@@ -14,24 +14,12 @@ import java.util.function.Supplier;
 
 public class CercaniasTotem extends BlockExtension implements DirectionHelper  {
 
-    //private final Block[] totemblocks;
-    private final Supplier<Block>[] totemblocks;
+
+    private final List<Supplier<Block>> totemblocks;
     public CercaniasTotem() {
         super(Blocks.createDefaultBlockSettings(false, blockState -> 0).nonOpaque());
-        /*totemblocks = new Block[] {
-                es.joseka.renfemtr.mod.Blocks.CERCANIAS_TOTEM_BLOCK_1.get(),
-                es.joseka.renfemtr.mod.Blocks.CERCANIAS_TOTEM_BLOCK_2.get(),
-                es.joseka.renfemtr.mod.Blocks.CERCANIAS_TOTEM_BLOCK_1.get(),
-                es.joseka.renfemtr.mod.Blocks.CERCANIAS_TOTEM_BLOCK_2.get(),
-                es.joseka.renfemtr.mod.Blocks.CERCANIAS_TOTEM_BLOCK_3.get(),
-                es.joseka.renfemtr.mod.Blocks.CERCANIAS_TOTEM_BLOCK_4.get(),
-                es.joseka.renfemtr.mod.Blocks.CERCANIAS_TOTEM_BLOCK_3.get(),
-                es.joseka.renfemtr.mod.Blocks.CERCANIAS_TOTEM_BLOCK_4.get(),
-                es.joseka.renfemtr.mod.Blocks.CERCANIAS_TOTEM_BLOCK_3.get(),
-                es.joseka.renfemtr.mod.Blocks.CERCANIAS_TOTEM_BLOCK_4.get(),
-                es.joseka.renfemtr.mod.Blocks.CERCANIAS_TOTEM_BLOCK_5.get(),
-        };*/
-        totemblocks = new Supplier[] {
+
+        totemblocks = List.of(
                 () -> es.joseka.renfemtr.mod.Blocks.CERCANIAS_TOTEM_BLOCK_2.get(),
                 () -> es.joseka.renfemtr.mod.Blocks.CERCANIAS_TOTEM_BLOCK_1.get(),
                 () -> es.joseka.renfemtr.mod.Blocks.CERCANIAS_TOTEM_BLOCK_2.get(),
@@ -45,8 +33,8 @@ public class CercaniasTotem extends BlockExtension implements DirectionHelper  {
                 () -> es.joseka.renfemtr.mod.Blocks.CERCANIAS_TOTEM_BLOCK_4.get(),
                 () -> es.joseka.renfemtr.mod.Blocks.CERCANIAS_TOTEM_BLOCK_3.get(),
                 () -> es.joseka.renfemtr.mod.Blocks.CERCANIAS_TOTEM_BLOCK_4.get(),
-                () -> es.joseka.renfemtr.mod.Blocks.CERCANIAS_TOTEM_BLOCK_5.get(),
-        };
+                () -> es.joseka.renfemtr.mod.Blocks.CERCANIAS_TOTEM_BLOCK_5.get()
+        );
     }
 
 
@@ -78,9 +66,9 @@ public class CercaniasTotem extends BlockExtension implements DirectionHelper  {
     public void onPlaced2(World world, BlockPos pos, BlockState state, @Nullable LivingEntity placer, ItemStack itemStack) {
         if (!world.isClient()) {
             final Direction facingValue = IBlock.getStatePropertySafe(state, FACING);
-            for (int i = 0; i < totemblocks.length; i++) {
-                BlockPos up = pos.up(i + 1);
-                BlockState newstate = totemblocks[i].get().getDefaultState();
+            for (int i = 0; i < totemblocks.size(); i++) {
+                final BlockPos up = pos.up(i + 1);
+                BlockState newstate = totemblocks.get(i).get().getDefaultState();
                 newstate = newstate.with(new Property<>(FACING.data), facingValue.data);
                 world.setBlockState(up, newstate);
             }
@@ -88,18 +76,16 @@ public class CercaniasTotem extends BlockExtension implements DirectionHelper  {
     }
 
     @Override
-
     public void onBreak2(World world, BlockPos pos, BlockState state, PlayerEntity player) {
         super.onBreak2(world, pos, state, player);
         if (!world.isClient()) {
-            for (int i = 0; i < totemblocks.length; i++) {
-                BlockPos up = pos.up(i + 1);
-                if (world.getBlockState(up).isOf(totemblocks[i].get())) {
+            for (int i = 0; i < totemblocks.size(); i++) {
+                final BlockPos up = pos.up(i + 1);
+                if (world.getBlockState(up).isOf(totemblocks.get(i).get())) {
                     world.breakBlock(up, false);
                 }
             }
         }
-
     }
 
     @Nonnull

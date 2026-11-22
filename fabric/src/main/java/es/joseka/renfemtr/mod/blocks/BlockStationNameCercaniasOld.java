@@ -21,8 +21,6 @@ public class BlockStationNameCercaniasOld extends BlockStationNameCercaniasNewBa
         }
     }
 
-
-
     @Nonnull
     @Override
     public VoxelShape getOutlineShape2(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {

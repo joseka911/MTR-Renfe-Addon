@@ -1277,7 +1277,89 @@
             "legacyDoorCloseSoundTime": 0.0
         }
     ],
-    "signs": [],
+    "signs": [
+        {
+            "id": "cercanias_logo",
+			"textureResource": "renfe:textures/block/logo_cercanias.png",
+			"small": true,
+            "flipTexture": false
+        },
+        {
+            "id": "train_adif",
+			"textureResource": "mtr:signs/train_adif.png",
+			"small": true,
+            "flipTexture": false
+        },
+        {
+            "id": "adif_arrow_up_left",
+			"textureResource": "mtr:signs/adif_arrow_up_left.png",
+			"small": false,
+            "flipTexture": false
+        },
+        {
+            "id": "adif_arrow_up_right_flip",
+			"textureResource": "mtr:signs/adif_arrow_up_left.png",
+			"small": false,
+            "flipTexture": true
+        },
+        {
+            "id": "adif_arrow_down_left",
+			"textureResource": "mtr:signs/adif_arrow_down_left.png",
+			"small": false,
+            "flipTexture": false
+        },
+        {
+            "id": "adif_arrow_down_right_flip",
+			"textureResource": "mtr:signs/adif_arrow_down_left.png",
+			"small": false,
+            "flipTexture": true
+        },
+        {
+            "id": "adif_arrow_left",
+			"textureResource": "mtr:signs/adif_arrow_left.png",
+			"small": false,
+            "flipTexture": false
+        },
+        {
+            "id": "adif_arrow_right",
+			"textureResource": "mtr:signs/adif_arrow_left.png",
+			"small": false,
+            "flipTexture": true
+        },
+        {
+            "id": "adif_arrow_up",
+			"textureResource": "mtr:signs/adif_arrow_up.png",
+			"small": false,
+            "flipTexture": false
+        },
+        {
+            "id": "adif_arrow_down",
+			"textureResource": "mtr:signs/adif_arrow_down.png",
+			"small": false,
+            "flipTexture": false
+        },
+        {
+            "id": "cercanias_logo_1",
+			"textureResource": "renfe:textures/block/logo_cercanias.png",
+            "customText": "Cercanías",
+			"small": false,
+            "flipTexture": false
+        },
+        {
+            "id": "rodalies_logo_1",
+			"textureResource": "mtr:signs/rodalies_logo_part_1.png",
+            "customText": " ",
+			"small": false,
+            "flipTexture": false
+        },
+        {
+            "id": "rodalies_logo_2",
+			"textureResource": "mtr:signs/rodalies_logo_part_2.png",
+            "customText": " ",
+			"small": false,
+            "flipTexture": false
+        }
+    ],
     "rails": [
         {
             "id": "curved_plat_es_1",

@@ -15,7 +15,6 @@ public class BufferStop extends BlockExtension implements DirectionHelper {
 
     public BufferStop() {
         super(Blocks.createDefaultBlockSettings(true, blockState -> 0));
-        //super(BlockHelper.createBlockSettings(true, (state) -> 0).nonOpaque().strength(2));
     }
     @Override
     public void addBlockProperties(List<HolderBase<?>> builder) {

@@ -11,6 +11,7 @@ final BuildTools buildTools = new BuildTools(minecraftVersion, "forge", project)
 
 minecraft {
 	mappings channel: "official", version: minecraftVersion
+	copyIdeResources = true
 	runs {
 		configureEach {
 			property "forge.logging.markers", "REGISTRIES"
@@ -26,14 +27,14 @@ sourceSets.main.resources { srcDir "src/generated/resources" }
 dependencies {
 	minecraft "net.minecraftforge:forge:${minecraftVersion}-${buildTools.getForgeVersion()}"
 	annotationProcessor "org.spongepowered:mixin:+:processor"
-	implementation fg.deobf("org.mtr:MTR-forge:${mtrVersion}+${minecraftVersion}-server")
+	implementation fg.deobf("org.mtr:MTR-forge:${mtrVersion}+${minecraftVersion}")
 }
 
 mixin {
 	add sourceSets.main, "mtr.refmap.json"
 	config "mtr.mixins.json"
-	debug.verbose = false
-	debug.export = false
+	debug.verbose = true
+	debug.export = true
 }
 
 java {

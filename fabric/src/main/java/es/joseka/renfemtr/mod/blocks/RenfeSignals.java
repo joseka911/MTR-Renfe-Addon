@@ -31,7 +31,7 @@ public class RenfeSignals extends BlockExtension implements DirectionHelper {
     @Nonnull
     @Override
     public VoxelShape getOutlineShape2(BlockState blockState, BlockView world, BlockPos pos, ShapeContext context) {
-        return IBlock.getVoxelShapeByDirection(0, 0, -6, 16, 16, -5, IBlock.getStatePropertySafe(blockState, FACING));
+        return IBlock.getVoxelShapeByDirection(0, 0, -16, 16, 16, 0, IBlock.getStatePropertySafe(blockState, FACING));
     }
 
 }
