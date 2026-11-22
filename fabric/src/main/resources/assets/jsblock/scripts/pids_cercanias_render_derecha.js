@@ -1,10 +1,5 @@
-// Render del formato "derecha" (tiempo estimado en un panel a la derecha).
-// Posiciones idénticas al original. Solo se han sustituido los textos
-// y el cálculo de paradas por llamadas a PIDSCustomUtil.
-// Las imágenes (fondo y logo) se pueden cambiar por script con el parámetro 'theme'.
-
 function cercaniasRenderDerecha(ctx, state, pids, theme) {
-    // Imágenes: si el script no pasa 'theme', se usan las de Renfe de siempre.
+
     let background = (theme && theme.background) ? theme.background : "jsblock:textures/background_cercanias.png";
     let logo = (theme && theme.logo) ? theme.logo : "jsblock:textures/renfe-logo-white.png";
     let logoWidth = (theme && theme.logoWidth) ? theme.logoWidth : 90;

@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "es.joseka.renfemtr.mod.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "renfe.refmap.json",
+  "mixins": [
+    "GetRailType"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -12,6 +12,8 @@ authors = "Joseka"
 description = "Renfe addon is now available for minecraft transit Railway Mod"
 logoFile = "icon.png"
 
+[[mixins]]
+config = "renfe.mixins.json"
 
 [[dependencies.renfe]]
 modId = "forge"

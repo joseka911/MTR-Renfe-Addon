@@ -31,8 +31,8 @@ dependencies {
 }
 
 mixin {
-	add sourceSets.main, "mtr.refmap.json"
-	config "mtr.mixins.json"
+	add sourceSets.main, "renfe.refmap.json"
+	config "renfe.mixins.json"
 	debug.verbose = true
 	debug.export = true
 }

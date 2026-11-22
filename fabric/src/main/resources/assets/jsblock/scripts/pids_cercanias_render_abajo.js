@@ -1,10 +1,4 @@
-// Render del formato "abajo" (tiempo estimado en la franja inferior).
-// Posiciones idénticas al original. Solo se han sustituido los textos
-// y el cálculo de paradas por llamadas a PIDSCustomUtil.
-// Las imágenes (fondo y logo) se pueden cambiar por script con el parámetro 'theme'.
-
 function cercaniasRenderAbajo(ctx, state, pids, theme) {
-    // Imágenes: si el script no pasa 'theme', se usan las de Renfe de siempre.
     let background = (theme && theme.background) ? theme.background : "jsblock:textures/background_cercanias.png";
     let logo = (theme && theme.logo) ? theme.logo : "jsblock:textures/renfe-logo-white.png";
     let logoWidth = (theme && theme.logoWidth) ? theme.logoWidth : 90;
@@ -45,7 +39,6 @@ function cercaniasRenderAbajo(ctx, state, pids, theme) {
                     .color(whiteColor)
                     .centerAlign()
                     .size(24,20)
-                    //.scaleXY()
                     .stretchXY()
                     .pos(25, 10 + (j * 20))
                     .scale(2)
@@ -104,7 +97,7 @@ function cercaniasRenderAbajo(ctx, state, pids, theme) {
                 .draw(ctx);
 
             Text.create("Clock")
-                .text(PIDSCustomUtil.formatTime(MinecraftClient.worldDayTime(), true)) // Note this here!
+                .text(PIDSCustomUtil.formatTime(MinecraftClient.worldDayTime(), true))
                 .color(0xFFFFFF)
                 .pos(96, 32)
                 .scale(1.5)
@@ -118,7 +111,7 @@ function cercaniasRenderAbajo(ctx, state, pids, theme) {
                 .draw(ctx);
 
             Text.create("Clock")
-                .text(PIDSCustomUtil.formatTime(MinecraftClient.worldDayTime(), true)) // Note this here!
+                .text(PIDSCustomUtil.formatTime(MinecraftClient.worldDayTime(), true))
                 .color(0xFFFFFF)
                 .pos(96, 32)
                 .scale(1.5)

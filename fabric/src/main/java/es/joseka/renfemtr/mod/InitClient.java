@@ -1,14 +1,30 @@
 package es.joseka.renfemtr.mod;
 
 import es.joseka.renfemtr.mod.render.RenderStationNameTiledCercaniasNew;
-import org.mtr.mapping.holder.BlockRenderType;
+
+import org.mtr.mapping.holder.Identifier;
 import org.mtr.mapping.holder.RenderLayer;
+
 import org.mtr.mapping.registry.RegistryClient;
+import org.mtr.mod.item.ItemBlockClickingBase;
+
 
 public class InitClient {
 	public static final RegistryClient REGISTRY_CLIENT = new RegistryClient(Init.REGISTRY);
 
 	public static void init() {
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(),Blocks.SIGNAL_5_ADVERTISEMENT);
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(),Blocks.SIGNAL_5_ADVERTISEMENT_ORANGE);
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(),Blocks.SIGNAL_5_ADVERTISEMENT_TEMP);
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(),Blocks.SIGNAL_5_ADVERTISEMENT_TEMP_ORANGE);
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(),Blocks.SIGNAL_5_PREADVERTISEMENT);
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(),Blocks.SIGNAL_5_PREADVERTISEMENT_TEMP);
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(),Blocks.SIGNAL_10_ADVERTISEMENT);
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(),Blocks.SIGNAL_10_ADVERTISEMENT_ORANGE);
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(),Blocks.SIGNAL_10_ADVERTISEMENT_TEMP);
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(),Blocks.SIGNAL_10_ADVERTISEMENT_TEMP_ORANGE);
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(),Blocks.SIGNAL_10_PREADVERTISEMENT);
+		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(),Blocks.SIGNAL_10_PREADVERTISEMENT_TEMP);
 		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(),Blocks.SIGNAL_20_ADVERTISEMENT);
 		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(),Blocks.SIGNAL_20_ADVERTISEMENT_ORANGE);
 		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(),Blocks.SIGNAL_20_ADVERTISEMENT_TEMP);
@@ -96,7 +112,13 @@ public class InitClient {
 		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(),Blocks.PLATFORM_ES_2_SLAB_45);
 		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(),Blocks.PLATFORM_BARRIER);
 		REGISTRY_CLIENT.registerBlockRenderType(RenderLayer.getCutout(),Blocks.PLATFORM_BARRIER_SLAB);
+		REGISTRY_CLIENT.registerItemModelPredicate(Items.RAIL_CONNECTOR_5, new Identifier(Init.MOD_ID, "selected"), checkItemPredicateTag());
+		REGISTRY_CLIENT.registerItemModelPredicate(Items.RAIL_CONNECTOR_5_ONE_WAY, new Identifier(Init.MOD_ID, "selected"), checkItemPredicateTag());
+		REGISTRY_CLIENT.registerItemModelPredicate(Items.RAIL_CONNECTOR_10, new Identifier(Init.MOD_ID, "selected"), checkItemPredicateTag());
+		REGISTRY_CLIENT.registerItemModelPredicate(Items.RAIL_CONNECTOR_10_ONE_WAY, new Identifier(Init.MOD_ID, "selected"), checkItemPredicateTag());
 		REGISTRY_CLIENT.init();
 	}
-
+	private static RegistryClient.ModelPredicateProvider checkItemPredicateTag() {
+		return (itemStack, clientWorld, livingEntity) -> itemStack.getOrCreateTag().contains(ItemBlockClickingBase.TAG_POS) ? 1 : 0;
+	}
 }

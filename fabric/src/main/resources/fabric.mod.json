@@ -22,8 +22,7 @@
 			"es.joseka.renfemtr.init.MainFabricClient"
 		]
 	},
-	"mixins": [
-	],
+	"mixins": ["renfe.mixins.json"],
 	"depends": {
 		"fabric": "*",
 		"minecraft": "1.20.4",

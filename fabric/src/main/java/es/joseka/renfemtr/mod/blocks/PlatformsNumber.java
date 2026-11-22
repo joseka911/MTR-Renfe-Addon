@@ -12,7 +12,6 @@ public class PlatformsNumber extends ModelChangerBase implements Incrementable {
 
     public PlatformsNumber() {
         super(Blocks.createDefaultBlockSettings(true));
-        //super(BlockHelper.createBlockSettings(true), 10);
     }
     @Override
     public IntegerProperty getPropertyToIncrement() {

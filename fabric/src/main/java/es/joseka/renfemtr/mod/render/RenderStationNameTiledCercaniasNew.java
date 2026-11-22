@@ -90,13 +90,10 @@ public class RenderStationNameTiledCercaniasNew <T extends BlockStationNameCerca
         graphicsHolder.rotateXDegrees(xTilt);
         graphicsHolder.translate(-xOffset, -yOffset, -zOffset - SMALL_OFFSET * 2);
 
-        //final float scale = Math.min((maxWidth) / textWidth, maxScale);
-        //graphicsHolder.scale(scale, scale, scale);
         graphicsHolder.scale(0.02f, 0.02f, 0.02f);
         graphicsHolder.translate(0, -3.5, 0);
 
         graphicsHolder.drawText(roundelText, -textWidth / 2, 0, textColor, false, light);
-
 
         graphicsHolder.pop();
     }
