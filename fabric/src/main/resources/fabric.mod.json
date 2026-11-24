@@ -11,7 +11,7 @@
 		"homepage": "https://github.com/joseka911/MTR-Renfe",
 		"sources": "https://github.com/joseka911/MTR-Renfe"
 	},
-	"license": "MIT",
+	"license": "CC-BY-NC-SA-4.0",
 	"icon": "icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -25,7 +25,7 @@
 	"mixins": ["renfe.mixins.json"],
 	"depends": {
 		"fabric": "*",
-		"minecraft": "1.20.4",
-		"mtr": ">=4.0.0 <4.1"
+		"minecraft": "1.19.2",
+		"mtr": ">=4.0.5 <4.1"
 	}
 }

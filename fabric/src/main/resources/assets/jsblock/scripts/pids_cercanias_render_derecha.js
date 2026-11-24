@@ -18,7 +18,7 @@ function cercaniasRenderDerecha(ctx, state, pids, theme) {
         let stops = arrival.route().getPlatforms().toArray().map((platform) => platform.stationName);
         let stops_at = PIDSCustomUtil.getStopsText(stops, pids.station().getName());
 
-        if (willArriveIn <= 60000) {
+        if (willArriveIn <= 120000) {
             Texture.create("Route Colored")
                 .texture("jsblock:textures/white_route_template.png")
                 .color(arrival.routeColor()) // Note this part!
